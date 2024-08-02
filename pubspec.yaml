@@ -1,0 +1,35 @@
+name: calendar_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: 2.2.0
+  cloud_firestore: 4.0.5
+
+  cupertino_icons: ^1.0.2
+  table_calendar: 3.0.7
+  intl: 0.17.0
+  drift: 2.1.0
+  sqlite3_flutter_libs: 0.5.10
+  path_provider: 2.0.11
+  get_it: 7.2.0
+  dio: 4.0.6
+  provider: 6.0.3
+  uuid: 3.0.6
+  path: 1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.1.7
+
+flutter:
+  uses-material-design: true
